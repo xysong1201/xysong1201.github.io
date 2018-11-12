@@ -21,9 +21,23 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png">
-  <link rel="shortcut icon" href="{{ site.baseurl }}/public/favicon.ico">
+  <link rel="icon" sizes="144x144" href="{{ site.baseurl }}/public/graph_icon.png">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/public/graph_icon.png">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <!-- Jekyll Slideshow -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+  <script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+    obj.style.width = obj.contentWindow.document.body.scrollWidth + 'px';
+  }
+  </script>
+
+  <script src="{{ site.baseurl }}/js/Drift.js"></script>
+  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/drift-basic.css">
+
 </head>
