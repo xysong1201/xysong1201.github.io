@@ -3,33 +3,24 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+							<li><a href="/blog"><b>Blogs are here</b></a></li>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href= "https://www.linkedin.com/in/xiaoyusong1201/">About me(linkedin)</li>
+	    		</ul>
+			</nav>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+		</body>
+		<h3>About the project</h3>
+		<p>
+		I'm working on a project which focus on the image segmentation for the MRI Neuroanatomy. The goal is to improve the state-of-the-art method for the image segmentation for the MRI Neuroanatomy.
+		</p>
+	</html>
