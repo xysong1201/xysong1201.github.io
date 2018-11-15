@@ -1,0 +1,17 @@
+---
+layout: default
+title: Jekylls
+---
+
+
+<h3><b>Jekyll implementation</b></h3>
+<ul class="summarys">
+
+
+{% for post in site.posts %}
+	{% if post.title contains "Jekyll" %}
+	 <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	{% endif %}
+{% endfor %}
+
+</ul>
