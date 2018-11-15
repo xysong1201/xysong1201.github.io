@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Use MathJax to enable write Equations with Latex in Jekyll blogs"
+title: "Use MathJax to enable write Equations in Jekyll blogs"
 ---
 
 If you are familiour with _Latex_ and you want to use it to add equations in your jekyll blog, insert the following code in the *default.html* in the *_includes* folder.
