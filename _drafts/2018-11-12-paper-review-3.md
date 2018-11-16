@@ -4,3 +4,15 @@ title: "Paper review #3: Error Corrective Boosting for Learning Fully Convolutio
 category: [Paper review]
 ---
 This paper can be considered as the former version of the QuickNAT.
+
+Problem:
+1. Labeled image data is very limited.
+
+
+Solution:
+1. Automatically create auxiliary labels on initially unlabeled data with FreeSurfer and use them for pre-training.
+2. Introduce ECB (Error Corrective boosting) for fine-tuning the network with manually labeled data.
+3. Introduce SkepDeconv-Net.
+4. Segment a 3D scan in 7 secs
+5. Outperforms the latest state-of-the-art F-CNN models.
+ 
