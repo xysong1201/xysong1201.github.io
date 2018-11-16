@@ -3,35 +3,11 @@ layout: default
 title: Blogs
 ---
 
-
-<h3><b>Summary of weeks:</b></h3>
-<ul class="summarys">
-
-
-{% for post in site.posts %}
-	{% if post.title contains "Summary" %}
-	 <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	{% endif %}
+{% for category in site.categories %}
+  <h3>{{ category[0] }}</h3>
+  <ul>
+    {% for post in category[1] %}
+      <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 {% endfor %}
-
-</ul>
-
-<h3><b>Study note:</b></h3>
-<ul class="notes">
-
-	  {% for post in site.posts %}
-		{% if post.title contains "Note" %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-		{% endif %}
-	  {% endfor %}
-</ul>
-
-<h3><b>Paper review:</b></h3>
-<ul class="reviews">
-
-	{% for post in site.posts %}
-	{% if post.title contains "review" %}
-		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	{% endif %}
-	{% endfor %}
-</ul>

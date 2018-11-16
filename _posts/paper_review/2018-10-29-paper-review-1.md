@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Paper review #1: QuickNAT Jan.2018 "
+category: [Paper review] 
 ---
 
-### QuickNAT : A deep fully convolution neural network (F-CNN) 
+### QuickNAT : A deep fully convolution neural network (F-CNN)
 * First, apply FreeSurfer to segment scans without annotations.
 * Second, fine-tune the previous network with the limited manually annotated data.
 

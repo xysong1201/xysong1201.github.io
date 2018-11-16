@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Paper review #2: DeepNAT Feb.2017 "
+category: [Paper review] 
 ---
 
 ### DeepNAT: Deep Convolutional Neural Network
