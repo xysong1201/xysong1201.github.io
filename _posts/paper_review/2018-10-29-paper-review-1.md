@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Paper review #1: QuickNAT Jan.2018 "
-category: [Paper review] 
+title: "Paper review #1: QuickNAT_Jan.2018 "
+category: [Paper review]
 ---
 
 ### QuickNAT : A deep fully convolution neural network (F-CNN)
