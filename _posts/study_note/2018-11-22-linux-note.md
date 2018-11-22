@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tensorflow"
+title: "bash"
 categories: [Study notes]
 ---
 [source](http://tldp.org/LDP/Bash-Beginners-Guide/html/Bash-Beginners-Guide.html#chap_01)
@@ -16,4 +16,4 @@ categories: [Study notes]
 * __Bash__. Commands work in sh also work in bash
 * __csh__. C shell
 * __tcsh__. Turbo C shell
-* __ksh__ 
+* __ksh__
