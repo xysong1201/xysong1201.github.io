@@ -17,3 +17,7 @@ categories: [Study notes]
 * __csh__. C shell
 * __tcsh__. Turbo C shell
 * __ksh__
+
+
+### What is X?
+X is the standard graphical user interface for Linux. Like other graphical user interfaces such as Microsoft Windows and Mac OS, X lets you interact with programs by using a mouse (or other pointing device) to point and click, providing a simple means of communicating with your computer.|
