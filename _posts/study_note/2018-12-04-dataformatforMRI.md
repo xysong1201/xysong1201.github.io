@@ -28,9 +28,28 @@ These formats require recording a number of characteristics of the image file, i
 #### Storage Order: R-L within P-A within I-S mean:
   * Voxels ordered from right to left to store a row
   * Rows ordered from posterior to anterior to store a slice
-  * Slices stored from inferior to superior to store a volume
+  * Slices stored from inferior to superior to store a volume|
 
 #### Slice Orientation names
 * Axial(Tranverse):R-L x A-P plane
 * Coronal: R-L x S-I plane
 * Sagittal: A-P x S-I plane
+
+
+### Nibabel
+A nibabel image is the association of three things:
+* The image data array: a 3D or 4D array of image data
+* An affine array that tells you the position of the image array data in a reference space
+* image metadata describing the image, usually in the form of an image Header
+
+
+
+a voxel is a pixel with volume
+
+EPI slices displays the slices in grayscale
+
+
+#### solve the problem of unalignment of the voxel coordinates in EPI and Anatomical Image
+
+Keep track of the relationship of voxel coordinates to some __reference space__.
+The *affine array* stores the relationship between voxel coordinates in the image data array and coordinates in the reference space.
