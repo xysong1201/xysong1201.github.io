@@ -25,7 +25,7 @@ jupyter-notebook --no-browser --ip=0.0.0.0 --port=8888 --NotebookApp.token='toke
 
 ### Local computer:
 ```terminal
-ssh -N -f -L localhost:8701:localhost:8888 xxx@server_address
+ssh -N -f -L localhost:8701:localhost:8888 xiaoyu@172.21.32.185
 ```
 
 ### In local browser
