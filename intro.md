@@ -3,4 +3,8 @@ layout: page
 title: A brief introduction
 ---
 
-I'm working on a project which focus on the image segmentation for the MRI Neuroanatomy. The goal is to improve the state-of-the-art method for the image segmentation for the MRI Neuroanatomy.
+Starting from the year 2018, I work on the Machine Learning field, mainly on Computer vision.
+Before this I worked one year in Huawei in China.
+Got my master's degree in Telecom Bretagne in France and Bachelor's degree in Xidian University in China.
+
+Passionate about engineering and Research! 
