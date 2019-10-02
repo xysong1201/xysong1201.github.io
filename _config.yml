@@ -6,9 +6,8 @@ permalink:           pretty
 
 # Setup
 title:               Xiaoyu SONG
-tagline:             'Project 2018 | Xiaoyu SONG'
-description:         'This blog is dedicated to my Project as a Research Associate in NTU under the supervision of <a href= "http://www.ntu.edu.sg/home/xbresson/">Prof. Xavier Bresson</a>.
- All blog posts are authored by <a href= "https://www.linkedin.com/in/xiaoyusong1201/">Xiaoyu SONG</a>.' 
+tagline:             'My personal Blog | Xiaoyu SONG'
+description:         'All blog posts are authored by <a href= "https://www.linkedin.com/in/xiaoyusong1201/">Xiaoyu SONG</a>.'
 url: https://xysong1201.github.io/
 baseurl:             ''
 paginate:            5
