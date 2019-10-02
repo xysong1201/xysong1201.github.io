@@ -1,5 +1,5 @@
 ---
 layout: post
-title: "Use MathJax to enable write Equations in Jekyll blogs"
+title: "Face recognition Notes"
 category: [Face Recognition]
 ---
